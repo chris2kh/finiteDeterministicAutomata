@@ -1,0 +1,16 @@
+DESCRIPTION = Accept all strings that star with 0
+
+STATES  ->       "a" "b" "c"
+
+TOKENS  ->      "0" "1"
+
+
+TRANSITION ->     ["b" "c"]
+                  ["b" "b"] 
+                  ["c" "c"] 
+
+
+START_STATE ->   "a"
+
+
+ACCEPT_STATES ->     "b"
