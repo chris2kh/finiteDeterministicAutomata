@@ -1,4 +1,4 @@
-DESCRIPTION = Accept all strings that star with 0
+DESCRIPTION = Accept all strings that begin with 0
 
 STATES  ->       "a" "b" "c"
 
