@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import re
 
-myFile = open("program.txt", "r").readlines()
+myFile = open("example.txt", "r").readlines()
 
 program = {
     "DESCRIPTION" : '',
