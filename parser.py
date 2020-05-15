@@ -27,7 +27,6 @@ for line in myFile:
         # line is a continuation of last parsed attribute, so append it
         program[lastParsedAttribute] += line
 
-
 # now we can parse corresponding line(s) for each attribute using regular expressions
 
 states = []
